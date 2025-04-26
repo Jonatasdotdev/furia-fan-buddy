@@ -1,7 +1,7 @@
 
 # 🦁 FURIA Buddy - Chatbot Fanático pela FURIA
 
-URIA Buddy é um chatbot criado especialmente para os fãs da FURIA Esports! Ele responde de forma animada, com gírias, emoção e muito espírito torcedor. Seja pra saber sobre campeonatos, a line de CS, produtos da loja ou a história da organização... o FURIA Buddy tá sempre pronto pra trocar ideia.
+FURIA Buddy é um chatbot criado especialmente para os fãs da FURIA Esports! Ele responde de forma animada, com gírias, emoção e muito espírito torcedor. Seja pra saber sobre campeonatos, a line de CS, produtos da loja ou a história da organização... o FURIA Buddy tá sempre pronto pra trocar ideia.
 
 ## ✨ Features
 
