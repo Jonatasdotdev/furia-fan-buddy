@@ -9,7 +9,7 @@ export default function Chat() {
   const bottomRef = useRef<HTMLDivElement>(null)
   const inputRef = useRef<HTMLInputElement>(null)
 
-  // Inicializa a API do Google GenAI com sua chave
+  // Inicializa a API do Google GenAI mover para um env depois
   const ai = new GoogleGenAI({ apiKey: "AIzaSyAz4fzrCnkws1BzKR3B9qBzfFyPZCHqBk0" });
   
   // Sistema de fallback local
