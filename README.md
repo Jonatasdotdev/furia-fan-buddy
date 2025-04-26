@@ -79,15 +79,13 @@ Se o bot IA falhar ou demorar, o sistema usa uma API `/api/chat` que reconhece p
 ![image](https://github.com/user-attachments/assets/b55e6a4f-85f2-49a0-8cef-0b7d78faf02c)
 
 
-☁️ Deploy
+## 🌐 Acesse o Projeto Online
 
-Este projeto pode ser facilmente hospedado no Vercel:
+FURIA Buddy já está no ar! Acesse aqui:  
+🔗 [furia-fan-buddy.vercel.app](https://furia-fan-buddy.vercel.app/)
 
-    Conecte seu repositório
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/Jonatasdotdev/furia-fan-buddy)
 
-    Configure a variável de ambiente NEXT_PUBLIC_GENAI_API_KEY
-
-    Clique em Deploy!
 
 ---
 📈 Melhorias Futuras (Ideias)
