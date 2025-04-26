@@ -102,7 +102,7 @@ FURIA Buddy já está no ar! Acesse aqui:
 
     Painel com estatísticas de uso dos tópicos mais perguntados
 
-    🧠 Contexto
+🧠 Contexto
 
 Este projeto foi criado como parte do processo seletivo para a vaga de Assistente de Engenharia de Software na FURIA, com foco em demonstrar:
 
