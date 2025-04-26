@@ -1,36 +1,118 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# 🦁 FURIA Buddy - Chatbot Fanático pela FURIA
 
-First, run the development server:
+URIA Buddy é um chatbot criado especialmente para os fãs da FURIA Esports! Ele responde de forma animada, com gírias, emoção e muito espírito torcedor. Seja pra saber sobre campeonatos, a line de CS, produtos da loja ou a história da organização... o FURIA Buddy tá sempre pronto pra trocar ideia.
+
+## ✨ Features
+
+- 🎯 Integração com Google GenAI (Gemini 2.0 Flash)
+- 🦁 Fallback local inteligente para respostas rápidas
+- 🎨 Front-end estilizado com TailwindCSS
+- ⚡ Mensagens dinâmicas e carregamento suave
+
+
+## 🛠️ Tecnologias
+
+- Next.js 14
+- React + Hooks (useState, useRef, useEffect)
+- TailwindCSS
+- Google Generative AI (Gemini API)
+- API local com Next.js (Route Handler)
+
+## 🚀 Como rodar o projeto localmente
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/furia-buddy.git
+cd furia-buddy
+```
+
+2. Instale as dependências:
+
+```bash
+npm install
+```
+
+3. Crie um arquivo `.env.local` com a sua API key do Google GenAI:
+
+```bash
+NEXT_PUBLIC_GENAI_API_KEY=your_api_key_here
+```
+
+
+4. Rode o servidor:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Acesse no navegador:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📚 Estrutura de Pastas
 
-## Learn More
+```
+/components
+  Chat.tsx     --> Componente principal do chat
+/pages
+  /api
+    chat/route.ts --> API local de fallback
+  index.tsx    --> Página principal com o Chat
+/public
+  FuriaBuddyicon.png --> Ícone do bot
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 💬 Como funciona o fallback local?
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Se o bot IA falhar ou demorar, o sistema usa uma API `/api/chat` que reconhece padrões no texto do usuário para gerar respostas categorizadas (CS, loja, torcida, jogadores, história, etc).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📸 Preview
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![image](https://github.com/user-attachments/assets/57b896f2-f47a-4aff-b6a8-69e17d223ae7)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![image](https://github.com/user-attachments/assets/b55e6a4f-85f2-49a0-8cef-0b7d78faf02c)
+
+
+## 🌐 Acesse o Projeto Online
+
+FURIA Buddy já está no ar! Acesse aqui:  
+🔗 [furia-fan-buddy.vercel.app](https://furia-fan-buddy.vercel.app/)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/project?template=https://github.com/Jonatasdotdev/furia-fan-buddy)
+
+
+---
+📈 Melhorias Futuras (Ideias)
+
+    Reconhecimento de perfil de fã (iniciante, veterano, colecionador)
+
+    Modo quiz ou perguntas sobre a FURIA
+
+    Suporte a voz (speech-to-text e text-to-speech)
+
+    Integração com Twitter/X e Instagram da FURIA
+
+    Suporte a outros idiomas (EN/ES)
+
+    Painel com estatísticas de uso dos tópicos mais perguntados
+
+    🧠 Contexto
+
+Este projeto foi criado como parte do processo seletivo para a vaga de Assistente de Engenharia de Software na FURIA, com foco em demonstrar:
+
+    Habilidade técnica com frameworks modernos
+
+    Experiência com APIs, integração com IA e fallback resiliente
+
+    Interesse em produtos digitais voltados à comunidade gamer
+
+## 📜 License
+
+Este projeto é apenas para fins educacionais e de demonstração.  
+FURIA® é uma marca registrada e este projeto não é afiliado oficialmente.
