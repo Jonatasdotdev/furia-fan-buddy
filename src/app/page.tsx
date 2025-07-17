@@ -4,7 +4,9 @@ export default function Home() {
   return (
     <>
       {/* Static FURIA-style header */}
-      <header className="w-full bg-black text-white shadow-lg">
+      <header className="w-full bg-black text-white shadow-lg" >
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#111827" />
         <div className="max-w-6xl mx-auto flex items-center justify-between px-6 py-3">
           <div className="flex items-center gap-3">
             <img
